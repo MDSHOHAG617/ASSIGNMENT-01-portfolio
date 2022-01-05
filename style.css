@@ -1,0 +1,98 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+    
+}
+h1{
+    font-size: 65px;
+    padding-left: 10px;
+   
+}
+
+h2{
+    font-size: 55px;
+    padding-left: 10px;
+    margin-top: -45px
+}
+span{
+    color:#ff6d59;
+}
+
+.section-1{
+    display: flex;
+
+}
+
+.left-sec{
+    width: 40%;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.right-sec{
+    width: 50%;
+   
+    
+ 
+}
+.right-sec img{
+    width: 400px;
+    margin-left: 150px;
+
+}
+
+
+.heading{
+    border-left: 5px solid rgb(61, 89, 168);
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(255, 10, 10);
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.left-sec p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.section-2 h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: ;
+}
+
+.card{
+    display: flex;
+    margin: 0 90px 0 90px;
+}
+section .card-1{
+   background-color: rgb(141, 210, 221);
+   width: 30%;
+   margin: 0 30px 0 30px;
+   padding: 0 0 0 30px;
+   margin-bottom: 100px;
+   border-radius: 10px;
+}
+
+
+section .card-1 img{
+    width: 150px;
+}
+
+.section-2 .card-bg-2{
+    background-color: yellowgreen;
+}
+
+.section-2 .card-bg-3{
+    background-color: rgb(211, 208, 63);
+}
