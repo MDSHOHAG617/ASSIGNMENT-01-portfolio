@@ -1,5 +1,7 @@
 body{
-    font-family: 'Luxurious Roman', cursive;
+    font-family: font-family 'Oswald', sans-serif;
+    margin: 0;
+    background: hsl(210, 44%, 96%);
     
 }
 h1{
@@ -13,8 +15,12 @@ h2{
     padding-left: 10px;
     margin-top: -45px
 }
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
 span{
     color:#ff6d59;
+    
 }
 
 .section-1{
@@ -46,21 +52,24 @@ span{
     margin-right: 40px;
 }
 
-a{
+.section-1 a{
     text-decoration: none;
     background-color: rgb(255, 10, 10);
-    padding: 10px 30px;
+    padding: 12px 30px;
     color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 20px;
     border-radius: 5px;
     margin-top: 20px;
+    
 }
 
 .left-sec p{
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
+
 
 
 
@@ -68,7 +77,7 @@ a{
 .section-2 h1{
     text-align: center;
     margin-top: 100px;
-    margin-bottom: ;
+    
 }
 
 .card{
@@ -79,9 +88,11 @@ section .card-1{
    background-color: rgb(141, 210, 221);
    width: 30%;
    margin: 0 30px 0 30px;
-   padding: 0 0 0 30px;
-   margin-bottom: 100px;
+   padding: 20px 20px 20px 20px;
+   margin-bottom: 20px;
    border-radius: 10px;
+   
+   
 }
 
 
@@ -96,3 +107,161 @@ section .card-1 img{
 .section-2 .card-bg-3{
     background-color: rgb(211, 208, 63);
 }
+
+
+
+
+
+
+
+.section-3{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.section-3 .left-sec img{
+    width: 400px;
+
+}
+
+.section-3 .right-sec{
+   margin-top: 150px;
+   margin-left: -70px;
+   width: 650px;
+   margin-bottom: 50px;
+  
+    
+}
+.section-3 .right-sec a{
+    text-decoration: none;
+    background-color: rgb(255, 10, 10);
+    padding: 12px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    
+  
+}
+
+.section-3 .right-sec p{
+    margin-bottom: 30px;
+    line-height: 25px;
+    
+}
+
+
+
+
+
+
+
+.section-4{
+    display: flex;
+    margin-bottom: 100px;
+}
+.section-4 .left-sec img{
+    width: 400px;
+    
+   
+
+}
+
+.section-4 .right-sec{
+    width: 580px;
+    margin-top: 150px;
+    margin-left: 120px;
+     
+ }
+ .section-4 .right-sec a{
+    text-decoration: none;
+    background-color: rgb(255, 10, 10);
+    padding: 12px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    
+  
+}
+
+.section-4 .right-sec p{
+    margin-bottom: 30px;
+    line-height: 25px;
+    
+}
+
+
+
+
+.section-5{
+    margin-bottom: 150px;
+}
+
+.section-5 h1{
+    
+    color: rgb(34, 36, 37);
+    text-align: center;
+    
+}
+
+.neptune{
+    display: flex;
+    margin: -50px;
+    
+}
+ 
+.neptune img{
+    width: 550px;
+    height: 350px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.neptune span{
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+   
+}
+.neptune .right-sec{
+    width:500px;
+    margin: 90px 0 0 80px;
+}
+
+.section-5 .right-sec a{
+    text-decoration: none;
+    background-color: rgb(255, 10, 10);
+    padding: 12px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.neptune p{
+  
+    margin-bottom: 30PX;
+}
+
+
+
+
+footer{
+    background-color: rgb(39, 38, 100);
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 0 10px 0;
+}
+
+.last-part p{
+    color: rgb(179, 176, 171);
+}
+
+.last-part h3{
+    font-size: 30px;
+}
+
+
+
