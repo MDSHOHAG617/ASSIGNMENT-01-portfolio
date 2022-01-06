@@ -17,6 +17,7 @@ h2{
 }
 p{
     font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
 }
 span{
     color:#ff6d59;
@@ -78,6 +79,9 @@ span{
     text-align: center;
     margin-top: 100px;
     
+}
+.card p{
+    text-align: left;
 }
 
 .card{
@@ -200,7 +204,7 @@ section .card-1 img{
 }
 
 .section-5 h1{
-    
+
     color: rgb(34, 36, 37);
     text-align: center;
     
@@ -220,14 +224,14 @@ section .card-1 img{
 }
 
 .neptune span{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     color: black;
    
 }
 .neptune .right-sec{
     width:500px;
-    margin: 90px 0 0 80px;
+    margin: 110px 0 0 80px;
 }
 
 .section-5 .right-sec a{
@@ -241,8 +245,8 @@ section .card-1 img{
 }
 
 .neptune p{
-  
-    margin-bottom: 30PX;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 
@@ -254,6 +258,10 @@ footer{
     color: aliceblue;
     padding: 10px 0 10px 0;
 }
+footer p{
+    text-align: center;
+   
+} 
 
 .last-part p{
     color: rgb(179, 176, 171);
